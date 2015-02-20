@@ -11,8 +11,8 @@ angular.module('myApp', [
 config(['$routeProvider', function($rp) {
     // var $rp = $routeProvider;
     $rp.otherwise({redirectTo: '/front'});
-    $rp.when("/front",function(){
-        templateUrl: 'front.html',
-        controller: 'FrontCtrl'
-    });
+    // $rp.when("/front",function(){
+    //     templateUrl: 'front.html',
+    //     controller: 'FrontCtrl'
+    // });
 }]);
